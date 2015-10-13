@@ -1,11 +1,12 @@
 test on commit:
   type: test
   script:
-    - git submodule update --init
     - ls -la
     - npm install
     - npm run test
   tags:
     - nodejs
+  only:
+    - master
   except:
     - tags
