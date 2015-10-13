@@ -1,0 +1,35 @@
+{
+  "name": "minion-http-server",
+  "version": "0.1.0",
+  "description": "http server for minon worker",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CapitalGene/minion-http-server.git"
+  },
+  "keywords": [
+    "minion"
+  ],
+  "author": "Chen Liang <code@chen.technology> (http://chen.technology/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CapitalGene/minion-http-server/issues"
+  },
+  "homepage": "https://github.com/CapitalGene/minion-http-server#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "bluebird": "^2.10.2",
+    "chai": "^3.1.0",
+    "chai-as-promised": "^5.0.0",
+    "mocha": "^2.1.0",
+    "sinon": "^1.12.2",
+    "sinon-chai": "^2.5.0",
+    "supertest": "^1.1.0"
+  }
+}
